@@ -1,0 +1,423 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	font-size: 14px;
+	line-height: 24px;
+	font-family: sans-serif;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: sans-serif;
+}
+a, a:hover{
+	text-decoration: none;
+}
+/*global css start*/
+.col-4{
+	width: 33.33%;
+	float: left;
+}
+.col-6{
+	width: 50%;
+	background-color: #015761;
+	display: inline-block;
+	height: 700px
+}
+.col-12{
+	width: 100%;
+	float: left;
+}
+.row{
+	width: 100%;
+}
+
+/*global css end*/
+
+/*header css start*/
+.header{
+	width: 100%;
+	float: left;
+}
+.part-1 h3{
+	font-size: 20px;
+	line-height: 25px;
+	padding: 20px 14px;
+	color: #CFC652;
+	font-weight: 500;
+}
+.menu{
+	list-style: none;
+}
+.menu li{
+	display: inline-block;
+	margin-left: 15px;
+}
+.menu li a{
+	color: #C5D9DB;
+	text-transform: capitalize;
+	font-size: 12px;
+	transition: 0.5s;
+}
+.menu li a:hover{
+	color: skyblue;
+}
+.banner-content{
+	padding: 100px 100px;
+}
+.banner-content h2{
+	font-size: 50px;
+	line-height: 60px;
+	color: yellow;
+	padding-left: 8px;
+}
+.banner-content h1{
+	font-size: 80px;
+	line-height: 85px;
+	text-transform: uppercase;
+	color: #fff;
+}
+.banner-content p{
+	text-align: right;
+	font-size: 20px;
+	font-weight: 700;
+	padding-top: 20px;
+}
+.part-2{
+	float: right;
+	background-image: url(../images/01.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+/*header css end*/
+
+/*bio sectio start */
+
+.bio{
+	width: 100%;
+	float: left;
+	background: #eee;
+	padding: 50px 0px;
+}
+.second-text{
+	font-size: 30px;
+	line-height: 40px;
+	font-weight: 700;
+	text-align: center;
+	margin-bottom: 20px;
+	text-transform: capitalize;
+	color: #015761;
+}
+.third-text{
+	font-size: 10px;
+	line-height: 20px;
+	font-weight: 400;
+	text-align: center;
+	text-transform: capitalize;
+	color: #717070;
+	margin-bottom: 20px;
+}
+.fourth-text{
+	font-size: 10px;
+	line-height: 20px;
+	font-weight: 400;
+	text-align: center;
+	text-transform: capitalize;
+	color: #717070;
+}
+.btn{
+	margin: 15px 625px 0px;
+	color: #fff;
+	background: black;
+	border: 2px solid #000;
+	text-transform: capitalize;
+	padding: 5px 2px;
+	transition: 1s;
+}
+.btn:hover{
+	background: #015761;
+}
+
+/*bio section end*/
+
+/*video-section css start*/
+.video-section{
+	width: 100%;
+	float: left;
+}
+.fifth-text{
+	font-size: 50px;
+	line-height: 60px;
+	text-align: center;
+	text-transform: capitalize;
+	color: #015761;
+	padding: 40px 0px;
+}
+.video{
+	width: 100%;
+	height: 25%;
+}
+
+/*video-section css end*/
+
+/*photo-section start*/
+.photo-section{
+	width: 100%;
+	float: left;
+}
+.sixth-text{
+	font-size: 50px;
+	line-height: 60px;
+	text-align: center;
+	text-transform: capitalize;
+	color: #015761;
+	padding: 40px 0px
+}
+.col-4-f{
+	width: 100%;
+	float: left;
+	margin: 8px 4px;
+}
+.col-4-s{
+	width: 100%;
+	float: left;
+	margin: 8px 4px;
+}
+
+.img2{
+	width: 29%;
+	height: 250px;
+}
+.img3{
+	width: 35%;
+	height: 250px;
+}
+.img4{
+	width: 35%;
+	height: 250px;
+}
+.img5{
+	width: 35%;
+	height: 350px;
+}
+.img6{
+	width: 40%;
+	height: 350px;
+	padding-left: 3px;
+}
+.img7{
+	width: 20%;
+	padding-left: 8px;
+	height: 350px;
+}
+
+/*photo-section end*/
+
+/*contact-section start*/
+.contact{
+	width: 100%;
+	float: left;
+	margin: 40px 0px;
+}
+.part-3{
+	float: left;
+	background-image: url(../images/last.jpg);
+	background-size: cover;
+	background-position: center;
+}
+.part-4{
+	width: 50%;
+	float: left;
+}
+.data{
+	width: 100%;
+}
+.data h1{
+	font-size: 50px;
+	line-height: 55px;
+	padding-top: 70px;
+	padding-left: 100px;
+	text-transform: capitalize;
+	color: yellow;
+}
+.data h3{
+	font-size: 18px;
+	line-height: 28px;
+	padding-top: 20px;
+	padding-left: 100px;
+	text-transform: capitalize;
+	color: #fff;
+}
+.data h4{
+	font-size: 14px;
+	line-height: 24px;
+	padding-top: 15px;
+	padding-left: 100px;
+	font-weight: 400;
+	text-transform: capitalize;
+	color: #fff;
+}
+.data h5{
+	font-size: 14px;
+	line-height: 24px;
+	padding-left: 100px;
+	font-weight: 400;
+	text-transform: capitalize;
+	color: #fff;
+}
+.data1 h4{
+	font-size: 14px;
+	line-height: 24px;
+	padding-top: 15px;
+	padding-left: 100px;
+	font-weight: 400;
+	text-transform: capitalize;
+	color: #fff;
+}
+.data1 h5{
+	font-size: 14px;
+	line-height: 24px;
+	padding-left: 100px;
+	font-weight: 400;
+	text-transform: capitalize;
+	color: #fff;
+}
+.data2 h4{
+	font-size: 14px;
+	line-height: 24px;
+	padding-top: 15px;
+	padding-left: 100px;
+	font-weight: 400;
+	text-transform: capitalize;
+	color: #fff;
+} 
+.data2 h5{
+	font-size: 14px;
+	line-height: 24px;
+	padding-left: 100px;
+	font-weight: 400;
+	text-transform: capitalize;
+	color: #fff;
+}
+.contant-way{
+	padding-left: 100px;
+	padding-top: 20px;
+}
+.social-icons{
+	width: 100%;
+}
+.social-icons li{
+	list-style: none;
+	display: inline-block;
+	text-align: center;
+}
+.social-icons li .fa{
+	display: block;
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	border-radius: 100%;
+	margin: 0px 5px;
+	font-size: 20px;
+	transition: 1s;
+}
+.social-icons li .fa-facebook{
+	color: #1298F6;
+	background: #fff;
+}
+.social-icons li .fa-facebook:hover{
+	color: #fff;
+	background: #1298F6;
+}
+.social-icons li .fa-twitter{
+	color: #fff;
+	background: #5DA9DD;
+}
+.social-icons li .fa-twitter:hover{
+	color: #5DA9DD;
+	background: #fff;
+}
+.social-icons li .fa-youtube{
+	color: #fff;
+	background: #FF0000;
+}
+.social-icons li .fa-youtube:hover{
+	color: #FF0000;
+	background: #fff;
+}
+.social-icons li .fa-behance{
+	color: #fff;
+	background: black;
+}
+.social-icons li .fa-behance:hover{
+	color: black;
+	background: #fff;
+}
+.social-icons li .fa-instagram{
+	color: #fff;
+	background: #C23B88;
+}
+.social-icons li .fa-instagram:hover{
+	color: #C23B88;
+	background: #fff;
+}
+
+/*contact-section end*/
+
+/*footer section start*/
+
+.footer-section{
+	width: 100%;	
+	float: left;
+	padding-left: 40px 0px;
+	background: skyblue;
+	text-align: center;
+
+}
+.last-text{
+	padding: 20px 0px;
+	font-size: 12px;
+	font-weight: 500;
+	color: #015761;
+}
+
+/*footer section end*/
+/*share button section*/
+.fbs{
+	width: 120px;
+	position: fixed;
+	top: 30%;
+	right: -96.7px;
+	cursor: pointer;
+	transition: 1s;
+}
+.fbs:hover{
+	right: -5px;
+}
+.twits{
+	width: 120px;
+	position: fixed;
+	top: 40%;
+	height: 50px;
+	right: -96.7px;
+	cursor: pointer;
+	transition: 1s;
+}
+.twits:hover{
+	right: -5px;
+}
+.instas{
+	width: 120px;
+	position: fixed;
+	top: 48%;
+	height: 50px;
+	right: -96.7px;
+	cursor: pointer;
+	transition: 1s;
+}
+.instas:hover{
+	right: -5px;
+}
+
+/*share button section end*/
